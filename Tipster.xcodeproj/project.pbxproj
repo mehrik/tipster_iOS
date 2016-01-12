@@ -12,6 +12,7 @@
 		8CE859B91C43527900152E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE859B71C43527900152E43 /* Main.storyboard */; };
 		8CE859BB1C43527900152E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE859BA1C43527900152E43 /* Assets.xcassets */; };
 		8CE859BE1C43527900152E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE859BC1C43527900152E43 /* LaunchScreen.storyboard */; };
+		8CE859C81C44A60700152E43 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE859C71C44A60700152E43 /* TipCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8CE859BA1C43527900152E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CE859BD1C43527900152E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CE859BF1C43527900152E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE859C71C44A60700152E43 /* TipCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8CE859B31C43527900152E43 /* AppDelegate.swift */,
 				8CE859B51C43527900152E43 /* ViewController.swift */,
 				8CE859B71C43527900152E43 /* Main.storyboard */,
+				8CE859C71C44A60700152E43 /* TipCalculator.swift */,
 				8CE859BA1C43527900152E43 /* Assets.xcassets */,
 				8CE859BC1C43527900152E43 /* LaunchScreen.storyboard */,
 				8CE859BF1C43527900152E43 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE859C81C44A60700152E43 /* TipCalculator.swift in Sources */,
 				8CE859B61C43527900152E43 /* ViewController.swift in Sources */,
 				8CE859B41C43527900152E43 /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				8CE859C41C43527900152E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
